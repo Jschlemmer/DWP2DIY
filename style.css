@@ -1,0 +1,116 @@
+@charset "UTF-8";
+body {
+    background-image: url(grey.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.floatLeft {
+	float: left;
+}
+.floatRight {
+	float:right;
+}
+
+
+#container {
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    width: 768px;
+    height: 1350px;
+    background-color: #FFFFFF;
+}
+
+ 
+header{
+    width: 768px;
+    height: 250px;
+	align-self: auto;
+    background-image: url(schlemtravel.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main {
+    height: 1500px;
+    width: 653px;
+    float: left;
+}
+aside {
+    width: 115px;
+    height: 1200px;
+    float: left;
+    background-color: #00FC9D;
+}
+footer {
+    width: 768px;
+    height: 50px;
+    background-color: #00B3FF;
+    clear: both;h1 {
+}
+h1 {
+    text-align: center;
+    font-size: 24px;
+}
+main article h1 {
+    text-align: center;
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+}
+p {
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+main article p {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+img {
+    float: right;
+}
+main article img {
+    float: right;
+}
+main article h3 {
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+}
+#container main article {
+}
+main article nav {
+    float: left;
+}
+
+
+
+		a:link {
+    color: #65EBFB;
+    text-decoration: none;
+    padding: 10px;
+		
+}
+a:visited {
+    color: #5F2575;
+    text-decoration: none;
+}
+    a:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+	background-color:#65EBFB;
+	padding: 10px;
+	border-radius: 20px;
+}
+a:active {
+    color: #1919199;
+    text-decoration: none;
+    font-family: neonoir, "sans-serif;";
+}
+.submit_btn {
+    width: 170px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #6BE7FF;
+    color: #FFFFFF;
+    font-size: 16px;
+  
+}
+.submit_btn:hover {
+	  -webkit-box-shadow: 6px 6px 35px 5px #000000;
+    box-shadow: 6px 6px 35px 5px #000000;
+	
